@@ -1,0 +1,23 @@
+#ifndef CHAT_CONFIG_H
+#define CHAT_CONFIG_H
+
+#define PROJECT_VERSION "1.0.0"
+#define SERVER_IP "127.0.0.1"
+#define SERVER_PORT 8080
+#define MAX_CLIENTS 20
+#define BUFFER_SIZE 1024
+#define MAX_USERNAME 32
+#define MAX_PASSWORD 128
+#define MAX_ROOMS 10
+#define MAX_ROOM_NAME 32
+#define WORKER_COUNT 4
+#define QUEUE_SIZE 100
+#define OUTPUT_BUFFER_SIZE 8192
+#define INPUT_BUFFER_SIZE 8192
+#define MAX_USERS 128
+#define MAX_PEERS 128
+#define AUTH_TIMEOUT 60.0
+#define LINE_TIMEOUT 15.0
+#define SHUTDOWN_TIMEOUT 5.0
+
+#endif
